@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    animation-name: fade-in;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+}
+
+.main-headline > h2, .main-headline >h3 {
+    font-size: 1.7em;
+}
+
+#main-title {
+    font-size: 4em;
+}
+
+.main-content {
+    margin: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(241 211 213);
+}
+
+.main-headline {
+    text-align: center;
+}
+
+.short-description {
+    border-radius: 10px;
+    border: 1px solid rgb(186, 158, 160);
+    margin-bottom: 20px;
+    padding: 0 0.5em;
+}
+
+img[src="../img/Aristotle_Onassis_1967.jpg"] {
+    border-radius: 50%;
+    width: 228px;
+    transition: all 0.3s ease-in-out;
+}
+
+img[src="../img/Aristotle_Onassis_1967.jpg"]:hover {
+    border-radius: 50%;
+    width: 250px;
+}
+.photo-container {
+    padding: 15px 0 0 0;
+    border-radius: 10px;
+    border: 1px solid  rgb(186, 158, 160);
+    text-align: center;
+}
+
+.photo-description {
+    margin: 5px 10px 5px 10px;
+    padding-top: 8px;
+    border-radius: 5px;
+    height: 5vh;
+    background-color: rgb(218, 199, 200);
+    font-size: 1.15em;
+    font-family: 'Roboto Condensed', sans-serif; ;
+}
+
+.link-style {
+    text-decoration: none;
+    font-weight:bolder;
+    color: rgb(99, 10, 158);
+    transition: all 0.3s ease-in-out;
+}
+
+.link-style:hover {
+    color: rgb(184, 164, 231);
+}
+
+#footer-caption {
+    padding-left: 30px;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
